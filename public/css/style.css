@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+
+
+/* navbar */
+.fa-house{
+    color: rgb(47, 99, 230);
+}
+
+.navbar{
+    background-color: aliceblue;
+    height: 4rem;
+}
+
+/* footer */
+
+.f-info-links{
+    text-decoration: none;
+    color: #222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-links{
+    width: 100%;
+}
+
+.f-info-socials, .f-info-socials , .f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-info-socials i{
+    margin-right: 2rem;
+}
+
+.f-info{
+    text-align: center;
+    height: 8rem;
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+/* cards */
+
+.card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 2rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+
+
